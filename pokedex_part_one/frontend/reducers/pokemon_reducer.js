@@ -1,4 +1,4 @@
-import { RECEIVE_ALL_POKEMON } from '../actions/pokemon_actions';
+import { RECEIVE_ALL_POKEMON, REQUEST_ALL_POKEMON } from '../actions/pokemon_actions';
 import { merge, union } from 'lodash';
 
 export const pokemonReducer = (state = {}, action) => {
